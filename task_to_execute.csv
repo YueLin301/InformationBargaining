@@ -1,0 +1,6 @@
+task,duration,scenario,value_setting,first_run_proposer,may_meet_again_context,long_term_type
+signaling,long_term,pure_math,bounded,system_assigned,,fixed_role
+signaling,long_term,grading_students,bounded,coin_flip,,alternating_offer
+signaling,long_term,grading_students,bounded,system_assigned,,fixed_role
+signaling,long_term,selling_products,bounded,coin_flip,,alternating_offer
+signaling,long_term,selling_products,bounded,system_assigned,,fixed_role

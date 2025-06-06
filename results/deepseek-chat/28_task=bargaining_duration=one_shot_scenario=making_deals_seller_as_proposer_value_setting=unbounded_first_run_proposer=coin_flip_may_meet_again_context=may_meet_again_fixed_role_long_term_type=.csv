@@ -1,0 +1,13 @@
+run_index,agent0_payoff,agent1_payoff,deal,first_proposer_index,last_proposer_payoff,last_responder_payoff,last_timestep,proposer_last_decision
+1,0,0,False,0,0,0,1,1
+2,0,0,False,1,0,0,1,1
+3,1,0,True,0,1,0,1,1
+4,0,0,False,1,0,0,1,1
+5,0,0,False,0,0,0,1,1
+6,0,0,False,0,0,0,1,1
+7,0.010000000000000009,0.99,True,1,0.99,0.010000000000000009,1,0.99
+8,0,0,False,0,0,0,1,1
+9,0,0,False,1,0,0,1,1
+10,0.99,0.010000000000000009,True,0,0.99,0.010000000000000009,1,0.99
+11,0.99,0.010000000000000009,True,0,0.99,0.010000000000000009,1,0.99
+12,0,0,False,1,0,0,1,1

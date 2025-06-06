@@ -1,0 +1,88 @@
+task,duration,scenario,value_setting,first_run_proposer,may_meet_again_context,long_term_type,last_proposer_payoff_ground_truth,last_proposer_payoff_hypothesis,explanation
+bargaining,one_shot,pure_math,unbounded,coin_flip,never_meet_again,,1.0,,agent's payoff mean is 0.5 and proposer's payoff is 1
+bargaining,one_shot,pure_math,unbounded,coin_flip,may_meet_again_alternating,,None,,"e.g. (0.5,0.5) every time, or whoever is proposer gets 1"
+bargaining,one_shot,pure_math,unbounded,coin_flip,may_meet_again_fixed_role,,1.0,,naive repeated
+bargaining,one_shot,pure_math,unbounded,system_assigned,never_meet_again,,1.0,,the classic one
+bargaining,one_shot,pure_math,unbounded,system_assigned,may_meet_again_alternating,,None,,same
+bargaining,one_shot,pure_math,unbounded,system_assigned,may_meet_again_fixed_role,,1.0,,naive repeated
+bargaining,one_shot,pure_math,bounded,coin_flip,never_meet_again,,2/3,,value setting is changed
+bargaining,one_shot,pure_math,bounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,pure_math,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,pure_math,bounded,system_assigned,never_meet_again,,2/3,,
+bargaining,one_shot,pure_math,bounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,pure_math,bounded,system_assigned,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,splitting_coins,unbounded,coin_flip,never_meet_again,,1.0,,context does not change the analysis
+bargaining,one_shot,splitting_coins,unbounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,splitting_coins,unbounded,coin_flip,may_meet_again_fixed_role,,1.0,,
+bargaining,one_shot,splitting_coins,unbounded,system_assigned,never_meet_again,,1.0,,
+bargaining,one_shot,splitting_coins,unbounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,splitting_coins,unbounded,system_assigned,may_meet_again_fixed_role,,1.0,,
+bargaining,one_shot,splitting_coins,bounded,coin_flip,never_meet_again,,2/3,,
+bargaining,one_shot,splitting_coins,bounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,splitting_coins,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,splitting_coins,bounded,system_assigned,never_meet_again,,2/3,,
+bargaining,one_shot,splitting_coins,bounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,splitting_coins,bounded,system_assigned,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,making_deals_seller_as_proposer,unbounded,coin_flip,never_meet_again,,1.0,,context does not change the analysis
+bargaining,one_shot,making_deals_seller_as_proposer,unbounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_seller_as_proposer,unbounded,coin_flip,may_meet_again_fixed_role,,1.0,,
+bargaining,one_shot,making_deals_seller_as_proposer,unbounded,system_assigned,never_meet_again,,1.0,,
+bargaining,one_shot,making_deals_seller_as_proposer,unbounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_seller_as_proposer,unbounded,system_assigned,may_meet_again_fixed_role,,1.0,,
+bargaining,one_shot,making_deals_seller_as_proposer,bounded,coin_flip,never_meet_again,,2/3,,
+bargaining,one_shot,making_deals_seller_as_proposer,bounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_seller_as_proposer,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,making_deals_seller_as_proposer,bounded,system_assigned,never_meet_again,,2/3,,
+bargaining,one_shot,making_deals_seller_as_proposer,bounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_seller_as_proposer,bounded,system_assigned,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,making_deals_buyer_as_proposer,unbounded,coin_flip,never_meet_again,,1.0,,context does not change the analysis
+bargaining,one_shot,making_deals_buyer_as_proposer,unbounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_buyer_as_proposer,unbounded,coin_flip,may_meet_again_fixed_role,,1.0,,
+bargaining,one_shot,making_deals_buyer_as_proposer,unbounded,system_assigned,never_meet_again,,1.0,,
+bargaining,one_shot,making_deals_buyer_as_proposer,unbounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_buyer_as_proposer,unbounded,system_assigned,may_meet_again_fixed_role,,1.0,,
+bargaining,one_shot,making_deals_buyer_as_proposer,bounded,coin_flip,never_meet_again,,2/3,,
+bargaining,one_shot,making_deals_buyer_as_proposer,bounded,coin_flip,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_buyer_as_proposer,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+bargaining,one_shot,making_deals_buyer_as_proposer,bounded,system_assigned,never_meet_again,,2/3,,
+bargaining,one_shot,making_deals_buyer_as_proposer,bounded,system_assigned,may_meet_again_alternating,,None,,
+bargaining,one_shot,making_deals_buyer_as_proposer,bounded,system_assigned,may_meet_again_fixed_role,,2/3,,
+bargaining,long_term,pure_math,unbounded,coin_flip,,alternating_offer,0.5,,classic
+bargaining,long_term,pure_math,unbounded,coin_flip,,fixed_role,1.0,,naive repeated; agent's payoff is 0.5 and proposer's payoff is 1
+bargaining,long_term,pure_math,unbounded,system_assigned,,fixed_role,1.0,,naive repeated
+bargaining,long_term,pure_math,bounded,coin_flip,,alternating_offer,1/3,,
+bargaining,long_term,pure_math,bounded,coin_flip,,fixed_role,2/3,,
+bargaining,long_term,pure_math,bounded,system_assigned,,fixed_role,2/3,,
+bargaining,long_term,splitting_coins,unbounded,coin_flip,,alternating_offer,0.5,,
+bargaining,long_term,splitting_coins,unbounded,coin_flip,,fixed_role,1.0,,
+bargaining,long_term,splitting_coins,unbounded,system_assigned,,fixed_role,1.0,,
+bargaining,long_term,splitting_coins,bounded,coin_flip,,alternating_offer,1/3,,
+bargaining,long_term,splitting_coins,bounded,coin_flip,,fixed_role,2/3,,
+bargaining,long_term,splitting_coins,bounded,system_assigned,,fixed_role,2/3,,
+bargaining,long_term,making_deals_seller_as_proposer,unbounded,coin_flip,,alternating_offer,0.5,,
+bargaining,long_term,making_deals_seller_as_proposer,unbounded,coin_flip,,fixed_role,1.0,,
+bargaining,long_term,making_deals_seller_as_proposer,unbounded,system_assigned,,fixed_role,1.0,,
+bargaining,long_term,making_deals_seller_as_proposer,bounded,coin_flip,,alternating_offer,1/3,,
+bargaining,long_term,making_deals_seller_as_proposer,bounded,coin_flip,,fixed_role,2/3,,
+bargaining,long_term,making_deals_seller_as_proposer,bounded,system_assigned,,fixed_role,2/3,,
+bargaining,long_term,making_deals_buyer_as_proposer,unbounded,coin_flip,,alternating_offer,0.5,,
+bargaining,long_term,making_deals_buyer_as_proposer,unbounded,coin_flip,,fixed_role,1.0,,
+bargaining,long_term,making_deals_buyer_as_proposer,unbounded,system_assigned,,fixed_role,1.0,,
+bargaining,long_term,making_deals_buyer_as_proposer,bounded,coin_flip,,alternating_offer,1/3,,
+bargaining,long_term,making_deals_buyer_as_proposer,bounded,coin_flip,,fixed_role,2/3,,
+bargaining,long_term,making_deals_buyer_as_proposer,bounded,system_assigned,,fixed_role,2/3,,
+signaling,one_shot,pure_math,bounded,coin_flip,may_meet_again_alternating,,None,,
+signaling,one_shot,pure_math,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+signaling,one_shot,pure_math,bounded,system_assigned,never_meet_again,,2/3,,classic bayesian persuasion
+signaling,one_shot,grading_students,bounded,coin_flip,may_meet_again_alternating,,None,,context does not change the analysis
+signaling,one_shot,grading_students,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+signaling,one_shot,grading_students,bounded,system_assigned,never_meet_again,,2/3,,
+signaling,one_shot,selling_products,bounded,coin_flip,may_meet_again_alternating,,None,,context does not change the analysis
+signaling,one_shot,selling_products,bounded,coin_flip,may_meet_again_fixed_role,,2/3,,
+signaling,one_shot,selling_products,bounded,system_assigned,never_meet_again,,2/3,,
+signaling,long_term,pure_math,bounded,coin_flip,,alternating_offer,,1/3,Information bargaining
+signaling,long_term,pure_math,bounded,system_assigned,,fixed_role,,2/3,naive repeated
+signaling,long_term,grading_students,bounded,coin_flip,,alternating_offer,,1/3,context does not change the analysis
+signaling,long_term,grading_students,bounded,system_assigned,,fixed_role,,2/3,
+signaling,long_term,selling_products,bounded,coin_flip,,alternating_offer,,1/3,
+signaling,long_term,selling_products,bounded,system_assigned,,fixed_role,,2/3,
