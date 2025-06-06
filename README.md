@@ -1,3 +1,5 @@
+Paper: Bayesian Persuasion as a Bargaining Game
+
 Steps:
 1. print all the possible tasks: `all_possible_task.py` -> `all_possible_tasks.csv`
 2. print all the possible initial system prompts (iterate all the possible tasks): `prompts` -> `all_possible_init_system_prompt.txt`
